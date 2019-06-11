@@ -1,5 +1,5 @@
 public class Runner{
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		int num = 36;
 		Perfect_Square ps = (int num) -> {
@@ -21,8 +21,17 @@ public class Runner{
         Print_Quotient pQ = (float x,y)->System.out.println(x/y);
 
         System.out.printf("%.3f",pQ(x,y));
-		
-		
-		
-	} 
-}  
+
+
+
+	}
+
+	public interface Print_Quotient {
+	    public float printQuotient(float f1, float f2);
+	}
+
+	public interface Perfect_Square
+	{
+		public boolean isPerfectSquare(int num);
+	}
+}
