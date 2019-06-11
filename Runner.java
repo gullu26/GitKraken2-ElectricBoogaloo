@@ -34,4 +34,5 @@ public class Runner{
 	{
 		public boolean isPerfectSquare(int num);
 	}
+	//CommentsPartnerB I learned how to use Lambda expressions and GitKraken to manage version contol when working with multiple people
 }
