@@ -35,3 +35,6 @@ public class Runner{
 		public boolean isPerfectSquare(int num);
 	}
 }
+
+//I learned about lamba expressions and also how to use git merge and braches. 
+//I also learned how to procrastinate and do stuff at home the day before with a partner. Usually I do it alone.
